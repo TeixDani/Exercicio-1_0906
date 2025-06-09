@@ -6,4 +6,8 @@ class Pessoa:
 
 pessoa1 = Pessoa("Bernardo", 24)
 
-print(f"Olá, eu sou {pessoa1.nome} e tenho {pessoa1.idade} anos!!!")
+def InfoPessoa():
+    print(f"\nNome: ", pessoa1.nome,
+          "\nIdade: ", pessoa1.idade)
+
+p = InfoPessoa()
